@@ -125,7 +125,7 @@ header {
   font-size: 14px;
 }
 
-#services {
+#services  {
   background-color: #F17C72;
   text-align: center;
   color: #fff;
@@ -142,6 +142,28 @@ header {
   font-size: 35px;
   letter-spacing: 2px;
 }
+
+#work {
+  text-align: center;
+  padding: 70px 7px;
+}
+
+.box-work {
+  display: inline-block;
+  width: 100%;
+  margin-top: 63px;
+  text-align: center;
+}
+
+.box-imagework {
+  display: inline-block;
+  width: 100px;
+  margin: 30px 100px;
+  text-align: center;
+}
+
+
+
 
 footer {
   text-align: center;
