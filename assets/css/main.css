@@ -1,5 +1,3 @@
-/*CLASES REUTILIZABLES*/
-
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -162,8 +160,40 @@ header {
   text-align: center;
 }
 
+.box-imagework img{
+  border-radius: 5%;
+  cursor: pointer;
+}
 
+.estilos{
+  opacity:1;
+  background-color: rgba(61, 209, 160, 0.9);
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  cursor: pointer;
+  -webkit-transition: width 20ms linear 2s;
+  overflow: scroll;
+}
 
+.estilos span{
+  color: #58D4AB;
+  font-size: 90px;
+  position: absolute;
+  margin-left: 990px;
+  cursor: pointer;
+}
+
+.estilos img{
+  text-align: center;
+  
+  border: white solid 10px;
+  margin: 50px 160px;
+  cursor: pointer;
+
+}
 
 footer {
   text-align: center;
