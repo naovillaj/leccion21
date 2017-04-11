@@ -166,7 +166,7 @@ header {
 }
 
 .estilos{
-  opacity:1;
+  opacity:0;
   background-color: rgba(61, 209, 160, 0.9);
   width: 100%;
   height: 100%;
@@ -174,10 +174,19 @@ header {
   position: fixed;
   top: 0;
   cursor: pointer;
-  -webkit-transition: width 20ms linear 2s;
+  -webkit-transition: all linear 0.4s;
+  transition: all linear 0.4s;
   overflow: scroll;
+  visibility: hidden;
 }
 
+.estilos.active{
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+  overflow: scroll;
+}
 .estilos span{
   color: #58D4AB;
   font-size: 90px;
@@ -187,8 +196,7 @@ header {
 }
 
 .estilos img{
-  text-align: center;
-  
+  text-align: center;  
   border: white solid 10px;
   margin: 50px 160px;
   cursor: pointer;
