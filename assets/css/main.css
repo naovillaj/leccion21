@@ -157,8 +157,8 @@ header {
 
 .box-imagework {
   display: inline-block;
-  width: 100px;
-  margin: 30px 100px;
+  width: 200px;
+  margin: 30px 50px;
   text-align: center;
 }
 
@@ -172,4 +172,3 @@ footer {
   color: white;
   padding-top: 7px;
 }
-
