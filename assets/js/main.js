@@ -19,4 +19,5 @@ for(var i = 1; i<imagenes.length; i++){
 boton.addEventListener("click", function(){
 /*	imagenClick.style.display = "none";
 */	imagenClick.classList.toggle("active");
+	body.setAttribute("style", "overflow:scroll");
 })
