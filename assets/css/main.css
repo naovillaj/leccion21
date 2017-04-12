@@ -174,8 +174,8 @@ header {
   position: fixed;
   top: 0;
   cursor: pointer;
-  -webkit-transition: all linear 0.4s;
-  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.25s;
+  transition: all linear 0.25s;
   overflow: scroll;
   visibility: hidden;
 }
@@ -183,8 +183,8 @@ header {
 .estilos.active{
   opacity: 1;
   visibility: visible;
-  -webkit-transition: all linear 0.5s;
-  transition: all linear 0.5s;
+  -webkit-transition: all linear 0.25s;
+  transition: all linear 0.25s;
   overflow: scroll;
 }
 .estilos span{
